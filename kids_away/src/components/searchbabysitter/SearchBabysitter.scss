@@ -1,0 +1,48 @@
+@import "styles/variables.scss";
+
+h2{
+  font-family: $third-font;
+  color: $green-font;
+  font-size: 1rem;
+}
+
+.search{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: $white;
+  width:25%;
+  height: 500px;
+  border: 1px solid $green-font;
+  border-radius: 15px;
+  margin:1em;
+  padding-top: 1em;
+
+}
+.time{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.babysitterList{
+  display:flex;
+  background: $white;
+  width:75%;
+  height:auto;
+  border: 1px solid $green-font;
+  border-radius: 15px;
+  margin:1em;
+  padding: 1em;
+}
+
+.searchPage{
+  display:flex;
+  flex-direction: row;
+}
+
+.serviceCards{
+  width:100%;
+}

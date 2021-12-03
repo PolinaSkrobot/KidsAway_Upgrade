@@ -1,0 +1,29 @@
+@import "styles/variables.scss";
+.container_fav{
+  width: 95%;
+  display:flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.item_fav{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width:18%;
+  flex-direction: row;
+  border: 2px solid $green-font;
+  
+}
+.fav{
+  display:flex;
+  flex-direction: column;
+}
+.head_item_fav{
+  font-family: sans-serif;
+  font-size: 120%;
+}
+.photo{
+  width: 100%;
+}

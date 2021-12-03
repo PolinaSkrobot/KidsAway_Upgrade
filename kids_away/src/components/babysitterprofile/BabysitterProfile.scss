@@ -1,0 +1,156 @@
+@import "styles/variables.scss";
+
+
+.mainProfile{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: $white;
+  width:60%;
+  border: 1px solid $green-font;
+  border-radius: 15px;
+  margin:1em;
+  padding-bottom: 1em;
+  // margin-top: 10rem;
+}
+
+// .avatar{
+//   border-radius: 50%;
+//   width:15rem;
+//   height:auto;
+//   display:flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   margin-bottom: 2rem;
+  
+
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: 2rem;
+}
+
+.userinfo{
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: 200px;
+  margin-left: 2rem;
+}
+.rating{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.rightCorner{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.avatarImage{
+  // margin-top:-9rem;
+  // border-radius: 50%;
+  width:20rem;
+  height: auto;
+}
+
+.rating{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%
+}
+.profile{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.generalInfo{
+  background-color: $green-background;
+  width:100%;
+  
+}
+
+.separator{
+  width:100%;
+  vertical-align: bottom
+ 
+}
+
+.centralBlock{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+.headers{
+  display:flex;
+  color:$white;
+  justify-content: center;
+  font-family: $primary-font;
+  // margin-bottom: 30px;
+  height: 4rem;
+}
+
+.img{
+  width:20rem;
+  padding-bottom: 1rem;
+}
+.imgTwo{
+  width:20rem;
+  padding-right:2rem;
+  padding-bottom: 1rem;
+
+
+}
+.bio{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $darkpeach-background;  
+  width: 100%;
+  color: $black-font;
+  font-size: 1rem;
+  
+  // font-family: $third-font;
+}
+
+.bioBlock{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%
+
+}
+
+#profileHeader{
+  color: $green-font;
+  font-size: 2rem;
+  font-family: $secondary-font;
+  margin-top: 0.5rem;
+  
+}
+
+#profileHeaderTwo{
+  color: $white;
+  font-size: 2.3rem;
+  font-family: $secondary-font;
+  margin-top: 0.5rem;
+
+}
+.MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+  margin-top: 0.3rem;
+  
+}

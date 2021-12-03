@@ -1,0 +1,30 @@
+{
+  "name": "kids_away_api",
+  "version": "1.0.0",
+  "description": "backend for final project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:reset": "node db/resetdb.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolinaSkrobot/kids_away_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PolinaSkrobot/kids_away_api/issues"
+  },
+  "homepage": "https://github.com/PolinaSkrobot/kids_away_api#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "date-fns": "^2.25.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "pg-native": "^3.0.0",
+    "twilio": "^3.70.0"
+  }
+}
